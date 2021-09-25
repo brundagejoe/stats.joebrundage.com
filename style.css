@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+  color: #606060;
+}
+
+.navbar {
+  background-color: #000000 !important;
+}
+
+.introduction {
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+}
+
+.about {
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+}
+
+.footer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer img {
+  width:2.5em;
+}
+
+.footer a {
+  text-decoration: none;
+}
