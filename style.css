@@ -81,6 +81,15 @@ td, th {
   padding: 0 40px;
 }
 
+#teams-table {
+  padding: 0 500px;
+}
+
+#api-results {
+  text-align: center;
+  padding: 0 500px;
+}
+
 .leader {
   text-align: center;
 }
@@ -89,6 +98,10 @@ td, th {
   padding-bottom: 15px;
 }
 
+form {
+  text-align: center;
+  margin: 25px 10px;
+}
 @media (min-width: 48em) {
       .navbar-nav {
         margin-left: auto!important;
@@ -110,7 +123,15 @@ only screen and (max-width: 48em;),
   .per-season-table {
     padding: 0;
   }
-	/* Force table to not be like tables anymore */
+
+  #teams-table {
+    padding: 0 40px;
+  }
+
+  #api-results {
+    padding: 0 40px;
+  }
+ 	/* Force table to not be like tables anymore */
 	.per-season-table table, .per-season-table thead, .per-season-table tbody, .per-season-table th, .per-season-table td, .per-season-table tr {
 		display: block;
 	}

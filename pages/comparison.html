@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
-    <title>About</title>
+    <title>NBA Comparison</title>
   </head>
   <body>
 
@@ -33,47 +33,48 @@
                     <a class="nav-link" href="/pages/records.html">Records</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/pages/comparison.html">NBA Comparison</a>
+                    <a class="nav-link active" href="/pages/comparison.html">NBA Comparison</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="/pages/about.html">About</a>
+                    <a class="nav-link" href="/pages/about.html">About</a>
                   </li>
               </div>
             </div>
           </nav>
     </header>
 
-    <div class="title" style="padding-bottom:0px;">
-      <h1>About Us</h1>
+    <div class="title">
+      <h1>Team Info</h1>
     </div>
 
-    <div class="about row">
-        <div class="about col-md col-lg">
-            <figure style="margin-top:-30px;">
-              <img src="/images/moneyball.jpg" alt="" class="img-fluid">
-              <figcaption>Scene from the movie <em>Moneyball</em>, 2011. </figcaption>
-            </figure>
-        </div>
-        <div class="about col-md col-lg">
-          <div class="about-info">
-            <h2>How do we work?</h2>
-            <p>First and foremost, this website is still being built. Once completed, a user can create a
-            free account where they can track their own league. A section is in development where users can
-            enter what happens during a game quickly, and with that alone stats are developed. Multiple accounts
-            can be associated with a league, so all friends can see their stats and track records.
-            </p>
-            <p>
-              Statistics are an essential part of sports. They allow us to see things that we are not able to from
-              pure observation. Our hope is that by tracking the statistics, you will be able to notice things about your
-              ability to play basketball, focus on improvement in the right areas, and have fun while doing it.
-            </p>
-          </div>
-        </div>
+    <div class="stats-type">
+      <h2>NBA Teams</h2>
     </div>
+
+    <div id="teams-table">
+
+    </div>
+
+    <div class="team-form">
+      <form>
+        <label>Enter a Team ID: </label>
+        <input id="teamInput" type="text">
+        <input id="teamSubmit" type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div id="api-results">
+
+    </div>
+
 
     <div class="footer">
       <a href="https://github.com/brundagejoe/stats.joebrundage.com"><img src="/images/github.png" alt=""> Check out the full code on github</a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src = "/script.js">
+
+    </script>
   </body>
 </html>
